@@ -40,13 +40,13 @@
 }
 
 .profile::after{
-content: "";
-position: absolute;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 6rem;
-background-image: linear-gradient(transparent, --primary-theme-color);
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6rem;
+  background-image: linear-gradient(transparent, var(--primary-theme-color));
 }
 
 .profile__container {

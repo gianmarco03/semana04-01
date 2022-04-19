@@ -1,5 +1,6 @@
 @import url(./header.css);
 @import url(./profile.css);
+@import url(./experiences.css);
 
 :root {
   scroll-behavior: smooth;
@@ -28,6 +29,18 @@
 }
 
 .main {
+  width: 100%;
+}
+
+.wave-separator{
+  width: 100%;
+}
+.wave-separator__container{
+  display:flex;
+  margin: 0;
+
+}
+.wave-separator__wave{
   width: 100%;
 }
 
