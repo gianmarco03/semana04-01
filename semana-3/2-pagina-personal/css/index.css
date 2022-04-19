@@ -1,6 +1,7 @@
 @import url(./header.css);
 @import url(./profile.css);
 @import url(./experiences.css);
+@import url(./projects.css);
 
 :root {
   scroll-behavior: smooth;
@@ -32,15 +33,20 @@
   width: 100%;
 }
 
-.wave-separator{
+.wave-separator {
   width: 100%;
 }
-.wave-separator__container{
-  display:flex;
-  margin: 0;
 
+.wave-separator--r-180deg {
+  transform: rotate(180deg);
 }
-.wave-separator__wave{
+
+.wave-separator__wave-container {
+  display: flex;
+  margin: 0;
+}
+
+.wave-separator__wave {
   width: 100%;
 }
 
